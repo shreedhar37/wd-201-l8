@@ -44,7 +44,12 @@
         <br />
 
         <!-- render contents of todo.ejs -->
-        <%- include("todos.ejs") %>
+        <div>
+          <h5>Overdue</h5>
+          <%- include("todos.ejs") %>
+          <h5>Due Today</h5>
+          <h5>Due Later</h5>
+        </div>
       </div>
     </div>
     <!-- render the contents of footer.ejs  -->
